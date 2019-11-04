@@ -3,17 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88CBF62E236F78E600C755AA /* TrueTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F15CA2236E33C900AC7291 /* TrueTime.framework */; };
+		88CBF62F236F78E600C755AA /* TrueTime.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88F15CA2236E33C900AC7291 /* TrueTime.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		88F15C0F236DB8F900AC7291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C0E236DB8F900AC7291 /* AppDelegate.swift */; };
 		88F15C11236DB8F900AC7291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C10236DB8F900AC7291 /* SceneDelegate.swift */; };
 		88F15C13236DB8F900AC7291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C12236DB8F900AC7291 /* ContentView.swift */; };
 		88F15C15236DB8FB00AC7291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F15C14236DB8FB00AC7291 /* Assets.xcassets */; };
 		88F15C18236DB8FB00AC7291 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F15C17236DB8FB00AC7291 /* Preview Assets.xcassets */; };
 		88F15C1B236DB8FB00AC7291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F15C19236DB8FB00AC7291 /* LaunchScreen.storyboard */; };
+		88F15C23236DBA7600AC7291 /* BLEScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C22236DBA7600AC7291 /* BLEScanner.swift */; };
+		88F15C25236DF11C00AC7291 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C24236DF11C00AC7291 /* Database.swift */; };
+		88F15C28236DF28800AC7291 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 88F15C27236DF28800AC7291 /* SQLite */; };
+		88F15CA5236E340A00AC7291 /* SyncedTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15CA4236E340A00AC7291 /* SyncedTime.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88CBF630236F78E600C755AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				88CBF62F236F78E600C755AA /* TrueTime.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		88F15C0B236DB8F900AC7291 /* BLEScanning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEScanning.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +44,14 @@
 		88F15C17236DB8FB00AC7291 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88F15C1A236DB8FB00AC7291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88F15C1C236DB8FB00AC7291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F15C22236DBA7600AC7291 /* BLEScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEScanner.swift; sourceTree = "<group>"; };
+		88F15C24236DF11C00AC7291 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		88F15C9C236E331500AC7291 /* TrueTime */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = TrueTime; path = Carthage/Build/iOS/TrueTime.framework/TrueTime; sourceTree = "<group>"; };
+		88F15C9F236E334000AC7291 /* TrueTime.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = TrueTime.framework.dSYM; path = Carthage/Build/iOS/TrueTime.framework.dSYM; sourceTree = "<group>"; };
+		88F15CA0236E335400AC7291 /* Cartfile.resolved */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		88F15CA1236E337500AC7291 /* TrueTime-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TrueTime-Swift.h"; path = "Carthage/Build/iOS/TrueTime.framework/Headers/TrueTime-Swift.h"; sourceTree = "<group>"; };
+		88F15CA2236E33C900AC7291 /* TrueTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TrueTime.framework; path = Carthage/Build/iOS/TrueTime.framework; sourceTree = "<group>"; };
+		88F15CA4236E340A00AC7291 /* SyncedTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncedTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F15C28236DF28800AC7291 /* SQLite in Frameworks */,
+				88CBF62E236F78E600C755AA /* TrueTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,7 @@
 			children = (
 				88F15C0D236DB8F900AC7291 /* BLEScanning */,
 				88F15C0C236DB8F900AC7291 /* Products */,
+				88F15C41236E2A4200AC7291 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +90,9 @@
 				88F15C0E236DB8F900AC7291 /* AppDelegate.swift */,
 				88F15C10236DB8F900AC7291 /* SceneDelegate.swift */,
 				88F15C12236DB8F900AC7291 /* ContentView.swift */,
+				88F15C22236DBA7600AC7291 /* BLEScanner.swift */,
+				88F15C24236DF11C00AC7291 /* Database.swift */,
+				88F15CA4236E340A00AC7291 /* SyncedTime.swift */,
 				88F15C14236DB8FB00AC7291 /* Assets.xcassets */,
 				88F15C19236DB8FB00AC7291 /* LaunchScreen.storyboard */,
 				88F15C1C236DB8FB00AC7291 /* Info.plist */,
@@ -75,6 +109,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		88F15C41236E2A4200AC7291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F15CA2236E33C900AC7291 /* TrueTime.framework */,
+				88F15CA1236E337500AC7291 /* TrueTime-Swift.h */,
+				88F15CA0236E335400AC7291 /* Cartfile.resolved */,
+				88F15C9F236E334000AC7291 /* TrueTime.framework.dSYM */,
+				88F15C9C236E331500AC7291 /* TrueTime */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,12 +131,16 @@
 				88F15C07236DB8F900AC7291 /* Sources */,
 				88F15C08236DB8F900AC7291 /* Frameworks */,
 				88F15C09236DB8F900AC7291 /* Resources */,
+				88CBF630236F78E600C755AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BLEScanning;
+			packageProductDependencies = (
+				88F15C27236DF28800AC7291 /* SQLite */,
+			);
 			productName = BLEScanning;
 			productReference = 88F15C0B236DB8F900AC7291 /* BLEScanning.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 88F15C02236DB8F900AC7291;
+			packageReferences = (
+				88F15C26236DF28700AC7291 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = 88F15C0C236DB8F900AC7291 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,8 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F15C23236DBA7600AC7291 /* BLEScanner.swift in Sources */,
 				88F15C0F236DB8F900AC7291 /* AppDelegate.swift in Sources */,
 				88F15C11236DB8F900AC7291 /* SceneDelegate.swift in Sources */,
+				88F15C25236DF11C00AC7291 /* Database.swift in Sources */,
+				88F15CA5236E340A00AC7291 /* SyncedTime.swift in Sources */,
 				88F15C13236DB8F900AC7291 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +344,18 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BLEScanning/Preview Content\"";
 				DEVELOPMENT_TEAM = 62HJZYJ9K4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BLEScanning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/TrueTime.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivekroy.BLEScanning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,10 +372,18 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BLEScanning/Preview Content\"";
 				DEVELOPMENT_TEAM = 62HJZYJ9K4;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BLEScanning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/TrueTime.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivekroy.BLEScanning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88F15C26236DF28700AC7291 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88F15C27236DF28800AC7291 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88F15C26236DF28700AC7291 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88F15C03236DB8F900AC7291 /* Project object */;
 }

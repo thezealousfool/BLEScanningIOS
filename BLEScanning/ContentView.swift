@@ -7,10 +7,19 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @ObservedObject var bleScanner = BLEScanner()
     var body: some View {
-        Text("Hello, World!")
+        VStack(alignment: .center, spacing: 30) {
+            Text("\(self.bleScanner.beaconCount)")
+            Button(action: {
+                self.bleScanner.isRanging ? self.bleScanner.stopRanging() : self.bleScanner.startRanging()
+            }) {
+                Text(self.bleScanner.isRanging ? "Stop" : "Start")
+            }
+        }
     }
 }
 
