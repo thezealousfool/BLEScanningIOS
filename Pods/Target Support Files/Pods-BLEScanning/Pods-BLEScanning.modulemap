@@ -1,0 +1,6 @@
+module Pods_BLEScanning {
+  umbrella header "Pods-BLEScanning-umbrella.h"
+
+  export *
+  module * { export * }
+}

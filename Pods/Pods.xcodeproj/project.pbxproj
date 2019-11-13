@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346497917087C7C10FF46F3226B0EB1D /* Pods-BLEScanning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBDDADD8757EF413F127C288BBBD7D0 /* Pods-BLEScanning-dummy.m */; };
+		4547C04307F981FD59A50D64461C7D1D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96BAE6154398B245BCAA366D911BC73 /* Reachability.swift */; };
+		5E0BD6E70F2B81BD24AFC49A58A7A07C /* TrueTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF6AFD60B0331CFBAB04A1B37983A50 /* TrueTime.swift */; };
+		5FB975733E0F6F36E0BB5D29765BDD9B /* TrueTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD669B1BB51BA92E0431521D34F5624 /* TrueTime.m */; };
+		621050F826B05CAC391DB618907C0D36 /* ntp_types.h in Headers */ = {isa = PBXBuildFile; fileRef = E474B47C30CD062953CC87D88350D223 /* ntp_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65D21D070F95294ACEF49135A6B067A3 /* HostResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA38318BD3F09429664214E1B9FDDAA /* HostResolver.swift */; };
+		75EDC420C3D75D2EB5216CADF298FFD1 /* GCDLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5A700EB3A6AAB05F684764D02577A6 /* GCDLock.swift */; };
+		8213D0AC2CD6741DD006A1FFF2C4D095 /* NTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD75CB2C91CF6ED91D0D8FEAD3A2A8D /* NTPClient.swift */; };
+		9E228636C7B680F7C7EDA1DAEA7379D9 /* Pods-BLEScanning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3904F9F3DF45AE79CBA6F86D32D6BC25 /* Pods-BLEScanning-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A39FE3F6DD17D9A8E965CEB7D07649E7 /* ReferenceTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA18BE9DAFEE22611C003481B28E51A9 /* ReferenceTime.swift */; };
+		A5BD3E92255B3FAA71A1F427B482D8C2 /* NTPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C98AFDD159B3F3DF3C6FBE45063230D /* NTPExtensions.swift */; };
+		A6710D3741F7FE5E460DC5427038EFB0 /* Endian.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0CC7211578EFDF7A5A3B8AFBE70198 /* Endian.swift */; };
+		B265EEEC40767EFF783B560A4A3547AD /* TimedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6ACEBC1DF6BE332349BC6C802C701A /* TimedOperation.swift */; };
+		C160B81B86C9B8959D975081518FE30E /* NTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D060BB984456AD9975AC0AA4248362 /* NTPResponse.swift */; };
+		C2555817EB499044AE4261A8D6E41CE1 /* TrueTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4E2EE1C8B9617A5993E1DCDE7FE945 /* TrueTime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C50ED8D0511FCD844ACF9E462972349E /* TrueTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F6CA2A6B93C1218D19626B990A4F4 /* TrueTime-dummy.m */; };
+		D813C811E725661997A69057612145DC /* NTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF159E6DA42D5CF810A8EAF7931F99CE /* NTPConnection.swift */; };
+		DE00A84BF17FD572886B91769E0454E7 /* SocketAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65644522245F8166FFF9344D7814248F /* SocketAddress.swift */; };
+		F019BBCBA3D28FD7711B63A24A17DC90 /* TrueTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A8BF0DFD32BC2B3C694E1D345B0479 /* TrueTime-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D16C5E8818890C09827FF7409F224707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2551ED7715E6D4F807CE5B878C79AD;
+			remoteInfo = TrueTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0737E99BAF18F64894D654C4C51D0E3F /* Pods-BLEScanning-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLEScanning-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AD669B1BB51BA92E0431521D34F5624 /* TrueTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrueTime.m; path = Sources/TrueTime.m; sourceTree = "<group>"; };
+		0FA38318BD3F09429664214E1B9FDDAA /* HostResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HostResolver.swift; path = Sources/HostResolver.swift; sourceTree = "<group>"; };
+		0FF6AFD60B0331CFBAB04A1B37983A50 /* TrueTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrueTime.swift; path = Sources/TrueTime.swift; sourceTree = "<group>"; };
+		2F4E2EE1C8B9617A5993E1DCDE7FE945 /* TrueTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrueTime.h; path = Sources/TrueTime.h; sourceTree = "<group>"; };
+		36B069342E8BD3FBCE1186D8B98AD585 /* libPods-BLEScanning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BLEScanning.a"; path = "libPods-BLEScanning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3904F9F3DF45AE79CBA6F86D32D6BC25 /* Pods-BLEScanning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLEScanning-umbrella.h"; sourceTree = "<group>"; };
+		4BD75CB2C91CF6ED91D0D8FEAD3A2A8D /* NTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NTPClient.swift; path = Sources/NTPClient.swift; sourceTree = "<group>"; };
+		4C98AFDD159B3F3DF3C6FBE45063230D /* NTPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NTPExtensions.swift; path = Sources/NTPExtensions.swift; sourceTree = "<group>"; };
+		4D16275F63631032AE070F2DCB2D36AA /* Pods-BLEScanning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLEScanning.debug.xcconfig"; sourceTree = "<group>"; };
+		4F6ACEBC1DF6BE332349BC6C802C701A /* TimedOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimedOperation.swift; path = Sources/TimedOperation.swift; sourceTree = "<group>"; };
+		65644522245F8166FFF9344D7814248F /* SocketAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAddress.swift; path = Sources/SocketAddress.swift; sourceTree = "<group>"; };
+		6D0725F2B4C0FDCB9622845E9F353369 /* Pods-BLEScanning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLEScanning.release.xcconfig"; sourceTree = "<group>"; };
+		98F3DC6AB89E1344107DBBAF04A7841F /* Pods-BLEScanning-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLEScanning-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9D060BB984456AD9975AC0AA4248362 /* NTPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NTPResponse.swift; path = Sources/NTPResponse.swift; sourceTree = "<group>"; };
+		B57F6CA2A6B93C1218D19626B990A4F4 /* TrueTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TrueTime-dummy.m"; sourceTree = "<group>"; };
+		BA18BE9DAFEE22611C003481B28E51A9 /* ReferenceTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceTime.swift; path = Sources/ReferenceTime.swift; sourceTree = "<group>"; };
+		C444474ED2BF8521A74565C6123D861D /* libTrueTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTrueTime.a; path = libTrueTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A8BF0DFD32BC2B3C694E1D345B0479 /* TrueTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTime-umbrella.h"; sourceTree = "<group>"; };
+		C9DFBD4DB3E409FB739A2C7DF31205F1 /* TrueTime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TrueTime-prefix.pch"; sourceTree = "<group>"; };
+		CC0CC7211578EFDF7A5A3B8AFBE70198 /* Endian.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endian.swift; path = Sources/Endian.swift; sourceTree = "<group>"; };
+		D0416C33118AF4D53D0B81C872EF1163 /* TrueTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TrueTime.modulemap; sourceTree = "<group>"; };
+		D65B52DAC88A04C3695FCA6602B2954C /* Pods-BLEScanning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLEScanning.modulemap"; sourceTree = "<group>"; };
+		DB5A700EB3A6AAB05F684764D02577A6 /* GCDLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GCDLock.swift; path = Sources/GCDLock.swift; sourceTree = "<group>"; };
+		E474B47C30CD062953CC87D88350D223 /* ntp_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ntp_types.h; path = Sources/CTrueTime/ntp_types.h; sourceTree = "<group>"; };
+		E96BAE6154398B245BCAA366D911BC73 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		EF159E6DA42D5CF810A8EAF7931F99CE /* NTPConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NTPConnection.swift; path = Sources/NTPConnection.swift; sourceTree = "<group>"; };
+		F6CD374D155188E9D3A5E13A80C867BD /* TrueTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TrueTime.xcconfig; sourceTree = "<group>"; };
+		FBBDDADD8757EF413F127C288BBBD7D0 /* Pods-BLEScanning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLEScanning-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33F47825B6B301DE24FFC76BFA5D160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC306A4DDA4A61402041475ECCF70147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D75D7693EBBFEF590F2D286873CB802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36B069342E8BD3FBCE1186D8B98AD585 /* libPods-BLEScanning.a */,
+				C444474ED2BF8521A74565C6123D861D /* libTrueTime.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBF914080F2CE713162F58F2B2B0D5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFE66A26B7170AD842D156010F94CB05 /* TrueTime */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76FE56385DC767157F7E1A0FE80EB735 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFD931B21731944CFACE3C9F4D44BFD /* Pods-BLEScanning */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABFD931B21731944CFACE3C9F4D44BFD /* Pods-BLEScanning */ = {
+			isa = PBXGroup;
+			children = (
+				D65B52DAC88A04C3695FCA6602B2954C /* Pods-BLEScanning.modulemap */,
+				98F3DC6AB89E1344107DBBAF04A7841F /* Pods-BLEScanning-acknowledgements.markdown */,
+				0737E99BAF18F64894D654C4C51D0E3F /* Pods-BLEScanning-acknowledgements.plist */,
+				FBBDDADD8757EF413F127C288BBBD7D0 /* Pods-BLEScanning-dummy.m */,
+				3904F9F3DF45AE79CBA6F86D32D6BC25 /* Pods-BLEScanning-umbrella.h */,
+				4D16275F63631032AE070F2DCB2D36AA /* Pods-BLEScanning.debug.xcconfig */,
+				6D0725F2B4C0FDCB9622845E9F353369 /* Pods-BLEScanning.release.xcconfig */,
+			);
+			name = "Pods-BLEScanning";
+			path = "Target Support Files/Pods-BLEScanning";
+			sourceTree = "<group>";
+		};
+		BFE66A26B7170AD842D156010F94CB05 /* TrueTime */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CC7211578EFDF7A5A3B8AFBE70198 /* Endian.swift */,
+				DB5A700EB3A6AAB05F684764D02577A6 /* GCDLock.swift */,
+				0FA38318BD3F09429664214E1B9FDDAA /* HostResolver.swift */,
+				E474B47C30CD062953CC87D88350D223 /* ntp_types.h */,
+				4BD75CB2C91CF6ED91D0D8FEAD3A2A8D /* NTPClient.swift */,
+				EF159E6DA42D5CF810A8EAF7931F99CE /* NTPConnection.swift */,
+				4C98AFDD159B3F3DF3C6FBE45063230D /* NTPExtensions.swift */,
+				A9D060BB984456AD9975AC0AA4248362 /* NTPResponse.swift */,
+				E96BAE6154398B245BCAA366D911BC73 /* Reachability.swift */,
+				BA18BE9DAFEE22611C003481B28E51A9 /* ReferenceTime.swift */,
+				65644522245F8166FFF9344D7814248F /* SocketAddress.swift */,
+				4F6ACEBC1DF6BE332349BC6C802C701A /* TimedOperation.swift */,
+				2F4E2EE1C8B9617A5993E1DCDE7FE945 /* TrueTime.h */,
+				0AD669B1BB51BA92E0431521D34F5624 /* TrueTime.m */,
+				0FF6AFD60B0331CFBAB04A1B37983A50 /* TrueTime.swift */,
+				F95CDD9004006A9DB52E6129EC4E56D5 /* Support Files */,
+			);
+			name = TrueTime;
+			path = TrueTime;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4DBF914080F2CE713162F58F2B2B0D5F /* Pods */,
+				1D75D7693EBBFEF590F2D286873CB802 /* Products */,
+				76FE56385DC767157F7E1A0FE80EB735 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95CDD9004006A9DB52E6129EC4E56D5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0416C33118AF4D53D0B81C872EF1163 /* TrueTime.modulemap */,
+				F6CD374D155188E9D3A5E13A80C867BD /* TrueTime.xcconfig */,
+				B57F6CA2A6B93C1218D19626B990A4F4 /* TrueTime-dummy.m */,
+				C9DFBD4DB3E409FB739A2C7DF31205F1 /* TrueTime-prefix.pch */,
+				C9A8BF0DFD32BC2B3C694E1D345B0479 /* TrueTime-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TrueTime";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28245D36D05B23BDEEEC82BC48CD2D67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E228636C7B680F7C7EDA1DAEA7379D9 /* Pods-BLEScanning-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914618CC077FFFF25F092727D83438BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621050F826B05CAC391DB618907C0D36 /* ntp_types.h in Headers */,
+				F019BBCBA3D28FD7711B63A24A17DC90 /* TrueTime-umbrella.h in Headers */,
+				C2555817EB499044AE4261A8D6E41CE1 /* TrueTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE398D7E35682E54C2412FE07309DC21 /* Pods-BLEScanning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855BC7D63DEE79F46BC9392EF994F271 /* Build configuration list for PBXNativeTarget "Pods-BLEScanning" */;
+			buildPhases = (
+				28245D36D05B23BDEEEC82BC48CD2D67 /* Headers */,
+				73280C5F8F49B31A910D346E41751EAF /* Sources */,
+				CC306A4DDA4A61402041475ECCF70147 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86BDB9128B9961520B9768F6CF28C68 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLEScanning";
+			productName = "Pods-BLEScanning";
+			productReference = 36B069342E8BD3FBCE1186D8B98AD585 /* libPods-BLEScanning.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA2551ED7715E6D4F807CE5B878C79AD /* TrueTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDB01B32603CA091DD98F17B0F548CE /* Build configuration list for PBXNativeTarget "TrueTime" */;
+			buildPhases = (
+				914618CC077FFFF25F092727D83438BF /* Headers */,
+				2E0E9C5DB56C41E8C58CB7DD28C846FC /* Sources */,
+				C33F47825B6B301DE24FFC76BFA5D160 /* Frameworks */,
+				E6D67731D4A3F479DA17037B6F380EBC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueTime;
+			productName = TrueTime;
+			productReference = C444474ED2BF8521A74565C6123D861D /* libTrueTime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D75D7693EBBFEF590F2D286873CB802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE398D7E35682E54C2412FE07309DC21 /* Pods-BLEScanning */,
+				CA2551ED7715E6D4F807CE5B878C79AD /* TrueTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6D67731D4A3F479DA17037B6F380EBC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/TrueTime/TrueTime.modulemap",
+				"${PODS_ROOT}/Headers/Public/TrueTime/TrueTime-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/TrueTime-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TrueTime/TrueTime.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/TrueTime/TrueTime-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0E9C5DB56C41E8C58CB7DD28C846FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6710D3741F7FE5E460DC5427038EFB0 /* Endian.swift in Sources */,
+				75EDC420C3D75D2EB5216CADF298FFD1 /* GCDLock.swift in Sources */,
+				65D21D070F95294ACEF49135A6B067A3 /* HostResolver.swift in Sources */,
+				8213D0AC2CD6741DD006A1FFF2C4D095 /* NTPClient.swift in Sources */,
+				D813C811E725661997A69057612145DC /* NTPConnection.swift in Sources */,
+				A5BD3E92255B3FAA71A1F427B482D8C2 /* NTPExtensions.swift in Sources */,
+				C160B81B86C9B8959D975081518FE30E /* NTPResponse.swift in Sources */,
+				4547C04307F981FD59A50D64461C7D1D /* Reachability.swift in Sources */,
+				A39FE3F6DD17D9A8E965CEB7D07649E7 /* ReferenceTime.swift in Sources */,
+				DE00A84BF17FD572886B91769E0454E7 /* SocketAddress.swift in Sources */,
+				B265EEEC40767EFF783B560A4A3547AD /* TimedOperation.swift in Sources */,
+				C50ED8D0511FCD844ACF9E462972349E /* TrueTime-dummy.m in Sources */,
+				5FB975733E0F6F36E0BB5D29765BDD9B /* TrueTime.m in Sources */,
+				5E0BD6E70F2B81BD24AFC49A58A7A07C /* TrueTime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73280C5F8F49B31A910D346E41751EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346497917087C7C10FF46F3226B0EB1D /* Pods-BLEScanning-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86BDB9128B9961520B9768F6CF28C68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrueTime;
+			target = CA2551ED7715E6D4F807CE5B878C79AD /* TrueTime */;
+			targetProxy = D16C5E8818890C09827FF7409F224707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		181630EBA27829B6464245FBB44CFD05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CD374D155188E9D3A5E13A80C867BD /* TrueTime.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TrueTime/TrueTime-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/TrueTime/TrueTime.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TrueTime;
+				PRODUCT_NAME = TrueTime;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784E027D3F1F5E89B0F62C824E043721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CD374D155188E9D3A5E13A80C867BD /* TrueTime.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TrueTime/TrueTime-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/TrueTime/TrueTime.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TrueTime;
+				PRODUCT_NAME = TrueTime;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A863EFA0AA190DFE53737B2585651A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D0725F2B4C0FDCB9622845E9F353369 /* Pods-BLEScanning.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLEScanning/Pods-BLEScanning.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8888B432B9BD72A599AB6E4EA1A51E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D16275F63631032AE070F2DCB2D36AA /* Pods-BLEScanning.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLEScanning/Pods-BLEScanning.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDB01B32603CA091DD98F17B0F548CE /* Build configuration list for PBXNativeTarget "TrueTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784E027D3F1F5E89B0F62C824E043721 /* Debug */,
+				181630EBA27829B6464245FBB44CFD05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855BC7D63DEE79F46BC9392EF994F271 /* Build configuration list for PBXNativeTarget "Pods-BLEScanning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8888B432B9BD72A599AB6E4EA1A51E1 /* Debug */,
+				A863EFA0AA190DFE53737B2585651A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

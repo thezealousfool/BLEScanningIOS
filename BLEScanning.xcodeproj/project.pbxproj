@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		88CBF62E236F78E600C755AA /* TrueTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F15CA2236E33C900AC7291 /* TrueTime.framework */; };
-		88CBF62F236F78E600C755AA /* TrueTime.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88F15CA2236E33C900AC7291 /* TrueTime.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A1F88289FE4DA34ED40A38B /* libPods-BLEScanning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A46E885CBBE6828DAB33A7 /* libPods-BLEScanning.a */; };
 		88F15C0F236DB8F900AC7291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C0E236DB8F900AC7291 /* AppDelegate.swift */; };
 		88F15C11236DB8F900AC7291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C10236DB8F900AC7291 /* SceneDelegate.swift */; };
 		88F15C13236DB8F900AC7291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15C12236DB8F900AC7291 /* ContentView.swift */; };
@@ -21,21 +20,8 @@
 		88F15CA5236E340A00AC7291 /* SyncedTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F15CA4236E340A00AC7291 /* SyncedTime.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		88CBF630236F78E600C755AA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				88CBF62F236F78E600C755AA /* TrueTime.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		56FB59E40B112C2DC8DF52C9 /* Pods-BLEScanning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEScanning.debug.xcconfig"; path = "Target Support Files/Pods-BLEScanning/Pods-BLEScanning.debug.xcconfig"; sourceTree = "<group>"; };
 		88F15C0B236DB8F900AC7291 /* BLEScanning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEScanning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F15C0E236DB8F900AC7291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88F15C10236DB8F900AC7291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +38,8 @@
 		88F15CA1236E337500AC7291 /* TrueTime-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TrueTime-Swift.h"; path = "Carthage/Build/iOS/TrueTime.framework/Headers/TrueTime-Swift.h"; sourceTree = "<group>"; };
 		88F15CA2236E33C900AC7291 /* TrueTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TrueTime.framework; path = Carthage/Build/iOS/TrueTime.framework; sourceTree = "<group>"; };
 		88F15CA4236E340A00AC7291 /* SyncedTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncedTime.swift; sourceTree = "<group>"; };
+		A4508E07A9D52E641722D74E /* Pods-BLEScanning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEScanning.release.xcconfig"; path = "Target Support Files/Pods-BLEScanning/Pods-BLEScanning.release.xcconfig"; sourceTree = "<group>"; };
+		C9A46E885CBBE6828DAB33A7 /* libPods-BLEScanning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLEScanning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F15C28236DF28800AC7291 /* SQLite in Frameworks */,
-				88CBF62E236F78E600C755AA /* TrueTime.framework in Frameworks */,
+				4A1F88289FE4DA34ED40A38B /* libPods-BLEScanning.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +61,7 @@
 				88F15C0D236DB8F900AC7291 /* BLEScanning */,
 				88F15C0C236DB8F900AC7291 /* Products */,
 				88F15C41236E2A4200AC7291 /* Frameworks */,
+				8A8C71E5A340EF59C5702C49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +106,18 @@
 				88F15CA0236E335400AC7291 /* Cartfile.resolved */,
 				88F15C9F236E334000AC7291 /* TrueTime.framework.dSYM */,
 				88F15C9C236E331500AC7291 /* TrueTime */,
+				C9A46E885CBBE6828DAB33A7 /* libPods-BLEScanning.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A8C71E5A340EF59C5702C49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56FB59E40B112C2DC8DF52C9 /* Pods-BLEScanning.debug.xcconfig */,
+				A4508E07A9D52E641722D74E /* Pods-BLEScanning.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,10 +127,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88F15C1F236DB8FB00AC7291 /* Build configuration list for PBXNativeTarget "BLEScanning" */;
 			buildPhases = (
+				4E16608E0F76BA5ED208BC3C /* [CP] Check Pods Manifest.lock */,
 				88F15C07236DB8F900AC7291 /* Sources */,
 				88F15C08236DB8F900AC7291 /* Frameworks */,
 				88F15C09236DB8F900AC7291 /* Resources */,
-				88CBF630236F78E600C755AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +192,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E16608E0F76BA5ED208BC3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLEScanning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		88F15C07236DB8F900AC7291 /* Sources */ = {
@@ -338,6 +362,7 @@
 		};
 		88F15C20236DB8FB00AC7291 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FB59E40B112C2DC8DF52C9 /* Pods-BLEScanning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +391,7 @@
 		};
 		88F15C21236DB8FB00AC7291 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4508E07A9D52E641722D74E /* Pods-BLEScanning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
