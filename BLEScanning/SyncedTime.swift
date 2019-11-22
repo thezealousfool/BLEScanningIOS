@@ -9,9 +9,9 @@
 import Foundation
 import TrueTime
 
-class SyncedTime {
+class SyncedTime : ObservableObject {
     
     public static let time = SyncedTime()
     let client = TrueTimeClient.sharedInstance
-    
+    @Published public var ntpTime : Int64 = 0
 }

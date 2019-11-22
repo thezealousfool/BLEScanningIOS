@@ -43,14 +43,14 @@ class Database {
         }
     }
     
-    func insert(_uid: String, _major: String, _minor: String, _rssi: Int, _timestamp: Int) {
+    func insert(_uid: String, _major: String, _minor: String, _rssi: Int, _timestamp: Int64) {
         do {
             try database?.run(beacons.insert(
                 uid <- _uid,
                 major <- _major,
                 minor <- _minor,
                 rssi <- Int64(_rssi),
-                timestamp <- Int64(_timestamp)
+                timestamp <- _timestamp
             ))
         } catch {
             print("Insert error")

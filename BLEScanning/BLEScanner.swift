@@ -42,11 +42,11 @@ class BLEScanner : NSObject, CLLocationManagerDelegate, ObservableObject {
                          didRangeBeacons beacons: [CLBeacon],
                          in region: CLBeaconRegion) {
         beaconCount = beacons.count
-        let timestamp = Int(SyncedTime.time.client.referenceTime?.now().timeIntervalSince1970 ?? 0)
+        let timestamp = Int64(SyncedTime.time.client.referenceTime?.now().timeIntervalSince1970 ?? 0)
+        SyncedTime.time.ntpTime = timestamp
         if beacons.count > 0 {
             DispatchQueue.global(qos: .background).async {
                 beacons.forEach { beacon in
-                    print(String(format: "Major: %5d\t Minor: %5d\t Timestamp: %d", beacon.major.int32Value, beacon.minor.int32Value, timestamp))
                     Database.shared.insert(_uid: self.proximityUUID.uuidString, _major: beacon.major.stringValue, _minor: beacon.minor.stringValue, _rssi: beacon.rssi, _timestamp: timestamp)
                 }
             }

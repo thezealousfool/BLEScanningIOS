@@ -11,6 +11,7 @@ import Combine
 
 struct ContentView: View {
     @ObservedObject var bleScanner = BLEScanner()
+    @ObservedObject var syncedTime = SyncedTime.time
     var body: some View {
         VStack(alignment: .center, spacing: 30) {
             Text("\(self.bleScanner.beaconCount)")
@@ -19,6 +20,7 @@ struct ContentView: View {
             }) {
                 Text(self.bleScanner.isRanging ? "Stop" : "Start")
             }
+            Text("\(self.syncedTime.ntpTime)")
         }
     }
 }
